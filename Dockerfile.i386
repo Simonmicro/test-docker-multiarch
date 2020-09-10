@@ -1,7 +1,5 @@
 FROM i386/alpine
 
-# Should not need any qemu, because amd64 can run i386
-
 # The app (always the same like in amd64)
 WORKDIR /app
 COPY runme.sh .
