@@ -4,11 +4,21 @@ manifests:
     platform:
       architecture: amd64
       os: linux
+  - image: realsimonmicro/test-docker-multiarch:arm32v5
+    platform:
+      architecture: arm
+      os: linux
+      variant: v5
   - image: realsimonmicro/test-docker-multiarch:arm32v6
     platform:
       architecture: arm
       os: linux
       variant: v6
+  - image: realsimonmicro/test-docker-multiarch:arm32v7
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7
   - image: realsimonmicro/test-docker-multiarch:arm64v8
     platform:
       architecture: arm64
