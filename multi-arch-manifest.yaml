@@ -6,7 +6,7 @@ manifests:
       os: linux
   - image: realsimonmicro/test-docker-multiarch:i386
     platform:
-      architecture: i386
+      architecture: 386
       os: linux
   - image: realsimonmicro/test-docker-multiarch:arm32v6
     platform:
