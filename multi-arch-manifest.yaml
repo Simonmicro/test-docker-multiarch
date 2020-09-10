@@ -1,0 +1,16 @@
+image: realsimonmicro/test-docker-multiarch:latest
+manifests:
+  - image: realsimonmicro/test-docker-multiarch:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: realsimonmicro/test-docker-multiarch:arm32v6
+    platform:
+      architecture: arm
+      os: linux
+      variant: v6
+  - image: realsimonmicro/test-docker-multiarch:arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
